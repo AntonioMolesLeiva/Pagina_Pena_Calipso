@@ -1,0 +1,471 @@
+a{
+	cursor:pointer;
+}
+.breadcrumb{
+background-color:rgba(0,0,0,0.8) !important;
+background-color:rgba(0,20,0,0.8) !important;
+}
+.breadcrumb li a{
+	margin-left:10px;
+	color:#42CAFF;
+	text-decoration:none;
+}
+#crearJugador{
+background-color:rgba(255,255,255,0.8) !important;
+box-shadow:0px 0px 20px #000 !important;
+}
+.obligatorio {
+color:red;
+}
+.fotoedit {
+	width:100px;
+	height:120px;
+	border-radius:10px;
+	border:1px solid white;
+	box-shadow:0px 0px 10px black;
+}
+.panel-heading img {margin-right:10px;}
+.droptrue {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	/*border:1px solid red;*/
+	overflow:auto;
+	min-height:80px;
+}
+.droptrue li { 
+	cursor:pointer;
+	margin: 3px 3px 3px 0px;
+	padding: 1px;
+	float: left;
+	width: 60px; 
+	height: 80px;
+
+ }
+.panelhepor,.panelhedef,.panelhecen,.panelhedel,.panelhearb {cursor:pointer !important;}
+.cajajugador{
+	
+	background-color:white !important;
+	border-radius:3px;
+	z-index:1000 !important;
+}
+.jugadorSelected {
+	visibility:block;
+	width:59px;
+	height:58px;
+	margin:0px;
+	background-color:rgba(0,0,255,0.3);
+	z-index:1;
+	position:absolute;
+}
+.cajajugador img{
+width:58px;
+height:58px;
+margin:-1px;
+border-radius:2px;
+}
+.cajajugador .nombreAliasCajaJugador{
+	font-size:0.8em;
+	font-family:Ubuntu_Medium !important;
+	font-weight:normal;
+	color:black !important;
+}
+.DorsalCajaJugador {
+	font-size:0.8em;
+	color:red !important;
+	font-family:Ubuntu_Medium !important;
+	font-weight:normal;
+}
+/* estilos formación de equipos local y visitante */
+.panel-heading select{
+color:black!important;
+}
+.colorNegro .panel-heading{
+	background-color:black !important;
+	color:gold !important;
+}
+
+.colorNaranja .panel-heading{
+	background-color:#FF6600 !important;
+	color:black !important;
+}
+/* /estilos formación de equipos local y visitante */
+.negroTransparente {
+	background-color:rgba(0,0,0,0.5)!important;
+}
+span.ui-datepicker-append{
+	color:white !important;
+}
+.estrategiaCajaJug {
+	width:60px;
+	height:80px;
+	border:1px solid blue;
+	float:left;
+	display:inline;
+	overflow:hidden;
+	opacity:1 !important;
+}
+.estrategiaCajaJug li {margin:0px;}
+
+/*CSS VER PARTIDOS*/
+ #selectPartido .panel .panel-heading h4 a {
+ cursor:pointer;
+ text-decoration:none !important;
+ color:#c0c0c0;
+ }
+ #cabeceraSelectPartidos {
+ color:#42CAFF;
+  background: rgb(69,72,77); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 75%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(69,72,77,1)), color-stop(75%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 75%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 75%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 75%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 75%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ }
+ 
+ #selectPartido .panel-heading {
+	-moz-box-shadow:inset 0px 1px 9px 1px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 9px 1px #ffffff;
+	box-shadow:inset 0px 1px 9px 1px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #050005), color-stop(1, #696869) );
+	background:-moz-linear-gradient( center top, #050005 5%, #696869 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#050005', endColorstr='#696869');
+	background-color:#050005;
+	-webkit-border-top-left-radius:32px;
+	-moz-border-radius-topleft:32px;
+	border-top-left-radius:32px;
+	-webkit-border-top-right-radius:32px;
+	-moz-border-radius-topright:32px;
+	border-top-right-radius:32px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:1px solid #737373;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	width:100%;
+}
+ #selectPartido .panel-heading:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #696869), color-stop(1, #050005) );
+	background:-moz-linear-gradient( center top, #696869 5%, #050005 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#696869', endColorstr='#050005');
+	background-color:#696869;}
+ #selectPartido .panel-headingr:active {
+	position:relative;
+	top:1px;
+}
+ #selectPartido .panel {
+ border-top-left-radius:33px;
+  border-top-right-radius:33px;
+ }
+#infopartido table {
+background-color:white !important;
+text-align:center;
+}
+.divPosiciones {
+	width:100%;
+	height:90px;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+.marcador{
+	color: white;
+	text-shadow: 0px 0px 6px #000;
+}
+.dimCajaJug {
+	width:63px;
+	height:100px;
+	border:1px solid black;
+	background-color:white;
+	cursor:pointer;
+	border-radius:2px;
+	box-shadow:0px 0px 6px #000;
+}
+.margen5{
+	float:left;
+}
+.margen4{
+	margin-left:8px;
+	margin-right:8px;
+}
+.margen3{
+	margin-left:21px;
+	margin-right:21px;
+}
+.margen2{
+	margin-left:47px;
+	margin-right:47px;
+}
+.margen1{
+	margin:auto;
+}
+.dimCajaJug div span {color:red; font-family:Ubuntu_Bold;}
+ .dimCajaJug div{ 
+ font-family:Ubuntu_Light;
+ }
+.negro{
+background-color:black;
+color:gold;
+	}
+.naranja{
+background-color:#f26721;
+color:black;
+}
+/* /CSS VER PARTIDOS/ */
+/* MODIFCAR PARTIDOS */
+#modificar tbody tr:hover td.local:hover span{
+	visibility:visible !important;
+	cursor:pointer;
+	color:red;
+	
+}
+#modificar tbody tr:hover td.visitante:hover span{
+	visibility:visible !important;
+	cursor:pointer;
+	color:red;
+}
+.dimCajaJugMod {
+	width:63px;
+	height:100px;
+	border:1px solid black;
+	background-color:white;
+	cursor:pointer;
+	border-radius:2px;
+	box-shadow:0px 0px 6px #000;
+}
+.dimCajaJugMod div+div {color:red; font-family:Ubuntu_Bold;text-align:center;width:20px;margin:auto;}
+ .dimCajaJugMod div{ 
+ font-family:Ubuntu_Light;
+ text-align:center;
+ }
+/* /MODIFCAR PARTIDOS/ */
+/* PUNTOS */
+	#mostrarJug {width:230px;margin:auto;padding-top:4px;padding-bottom:4px;padding-right:4px;border-radius:10px;}
+	#mostrarJug li span {padding:5px;margin:3px;}
+	
+	#mostrarJug li, #mostrarJug li span {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#mostrarJug li{
+height:25px;
+	cursor: pointer;
+	border: 1px solid #999;/* IE */
+	border: rgba(0, 0, 0, .2) 1px solid;/* Saf4+, Chrome, FF3.6 */
+	border-bottom:rgba(0, 0, 0, .4) 1px solid;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -moz-linear-gradient(
+		center top,
+		rgba(255, 255, 255, .1) 0%,
+		rgba(0, 0, 0, .1) 100%
+	);/* FF3.6 */
+	background: -webkit-gradient(
+		linear,
+		center bottom,
+		center top,
+		from(rgba(0, 0, 0, .1)),
+		to(rgba(255, 255, 255, .1))
+	);/* Saf4+, Chrome */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')"; /* IE8 */
+	-moz-user-select: none;
+	-webkit-user-select:none;
+	-khtml-user-select: none;
+	margin-bottom:5px;
+}
+#mostrarJug li:hover{
+	background: -moz-linear-gradient(
+		center top,
+		rgba(255, 255, 255, .2) 0%,
+		rgba(255, 255, 255, .1) 100%
+	);/* FF3.6 */
+	background: -webkit-gradient(
+		linear,
+		center bottom,
+		center top,
+		from(rgba(255, 255, 255, .1)),
+		to(rgba(255, 255, 255, .2))
+	);/* Saf4+, Chrome */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#33FFFFFF', EndColorStr='#19FFFFFF'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#33FFFFFF', EndColorStr='#19FFFFFF')"; /* IE8 */
+}
+#mostrarJug li span {
+	top:1px;
+}
+#mostrarJug li span {
+	color:#fff;
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);
+	border-top: rgba(255, 255, 255, 0.2) 1px solid;
+}
+.por {background-color: #800080;color:white;transition:all 0.2s linear;}
+.por:hover{background-color: #960096;color:white;transition:all 0.2s linear;}
+.def {background-color: #B00;color:white;transition:all 0.2s linear;}
+.def:hover{background-color: #E00;color:white;transition:all 0.2s linear;}
+.cen {background-color:brown;color:white;transition:all 0.2s linear;}
+.cen:hover{background-color: #c06969;color:white;transition:all 0.2s linear;}
+.del {background-color: #A9014B;color:white;transition:all 0.2s linear;}
+.del:hover{background-color: #ba336e;color:white;transition:all 0.2s linear;}
+.arb {background-color: black;color:white;transition:all 0.2s linear;}
+.arb:hover{background-color: #333;color:white;transition:all 0.2s linear;}
+
+.extra {background-color: #91bd09;color:white;}
+.extra:hover{background-color:#a7ca3a;color:white;}
+.POR {background-color: #800080 !important;color:white;}
+.DEF {background-color: #B00 !important;color:white;}
+.CEN {background-color:brown !important;color:white;}
+.DEL {background-color: #A9014B !important;color:white;}
+.ARB {background-color: black !important;color:white;}
+.EXTRA {background-color: #91bd09 !important;color:white;}
+/* /PUNTOS/ */
+
+/* TROFEOS */
+	#selectTempTrof {
+	margin-left:-68px;
+	}
+	#selectTempTrof li {
+	padding:5px;
+	list-style-type:none;
+	margin-top:7px;
+	}
+	#selectTempTrof li a {
+	text-decoration:none;
+	margin-left:17px;
+	font-size:1.4em;
+	}
+	.buttontemp{
+	font:15px Calibri, Arial, sans-serif;
+
+	/* A semi-transparent text shadow */
+	text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+	
+	/* Overriding the default underline styling of the links */
+	text-decoration:none !important;
+	white-space:nowrap;
+	
+	display:inline-block;
+	vertical-align:baseline;
+	position:relative;
+	cursor:pointer;
+	padding:10px 20px;
+	
+	background-repeat:no-repeat;
+
+	/* The following two rules are fallbacks, in case
+	   the browser does not support multiple backgrounds. */
+
+	background-position:bottom left;
+	background-image:url('../../img/adm/button_bg.png');
+	
+	/* Multiple backgrounds version. The background images
+	   are defined individually in color classes */
+	
+	background-position:bottom left, top right, 0 0, 0 0;
+	background-clip:border-box;
+	
+	/* Applying a default border raidus of 8px */
+	
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	
+	/* A 1px highlight inside of the button */
+	
+	-moz-box-shadow:0 0 1px #fff inset;
+	-webkit-box-shadow:0 0 1px #fff inset;
+	box-shadow:0 0 1px #fff inset;
+	
+	/* Animating the background positions with CSS3 */
+	/* Currently works only in Safari/Chrome */
+	
+	-webkit-transition:background-position 1s;
+	-moz-transition:background-position 1s;
+	transition:background-position 1s;
+}
+
+.buttontemp:hover{
+	
+	/* The first rule is a fallback, in case the browser
+	   does not support multiple backgrounds
+	*/
+	
+	background-position:top left;
+	background-position:top left, bottom right, 0 0, 0 0;
+}
+
+.buttontemp:active{
+	/* Moving the button 1px to the bottom when clicked */
+	bottom:-1px;
+}
+.azul.buttontemp{
+	color:#0f4b6d !important;
+	
+	border:1px solid #84acc3 !important;
+	
+	/* A fallback background color */
+	background-color: #48b5f2;
+	
+	/* Specifying a version with gradients according to */
+	
+	background-image:	url('../../img/adm/button_bg.png'), url('../../img/adm/button_bg.png'),
+						-moz-radial-gradient(	center bottom, circle,
+												rgba(89,208,244,1) 0,rgba(89,208,244,0) 100px),
+						-moz-linear-gradient(#4fbbf7, #3faeeb);
+
+	background-image:	url('../../img/adm/button_bg.png'), url('../../img/adm/button_bg.png'),
+						-webkit-gradient(	radial, 50% 100%, 0, 50% 100%, 100,
+											from(rgba(89,208,244,1)), to(rgba(89,208,244,0))),
+						-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4fbbf7), to(#3faeeb));
+}
+
+.azul.buttontemp:hover{
+	background-color:#63c7fe;
+	
+	background-image:	url('../../img/adm/button_bg.png'), url('../../img/adm/button_bg.png'),
+						-moz-radial-gradient(	center bottom, circle,
+												rgba(109,217,250,1) 0,rgba(109,217,250,0) 100px),
+						-moz-linear-gradient(#63c7fe, #58bef7);
+						
+	background-image:	url('../../img/adm/button_bg.png'), url('../../img/adm/button_bg.png'),
+						-webkit-gradient(	radial, 50% 100%, 0, 50% 100%, 100,
+											from(rgba(109,217,250,1)), to(rgba(109,217,250,0))),
+						-webkit-gradient(linear, 0% 0%, 0% 100%, from(#63c7fe), to(#58bef7));
+}
+#maxgol thead tr th,#mvp thead tr th,#punt thead tr th {
+	text-align:center;
+}
+#maxgol thead tr:first-child th span,#mvp thead tr:first-child th span,#punt thead tr:first-child th span {
+	font-size:1.4em;
+	float:left;
+	margin-top:17px;
+	margin-left:20px;
+}
+#maxgol thead tr:first-child th img,#mvp thead tr:first-child th img,#punt thead tr:first-child th img {
+	max-width:55px;
+	float:left;
+	margin-left:30px;
+}
+.TablasTrofeos {
+	height:500px;
+	overflow-y:auto;
+}
+/*/TROFEOS/*/
+
+/* ESTADISTICAS JUGADOR */
+
+.ancho100{width:100%};
+/* /ESTADISTICAS JUGADOR/ */

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<?php session_start() ?>
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="keywords" content="peña,fútbol,calipso,zubia">
+	<meta name="description" content="Página web de la peña de fútbol Calipso">
+	<meta name="author" content="Antonio Moles Leiva">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+	<link href="./css/index.css" rel="stylesheet" type="text/css">
+	 <link href="./img/favicon.ico" rel="shortcut icon" />
+	 <!-- CSS de Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- CSS NIVO SLIDER -->
+	<link href="./css/nivo-slider.css" rel="stylesheet" media="screen">
+	<link href="./css/themes/default/default.css" rel="stylesheet" media="screen">
+	<link href="./css/themes/light/light.css" rel="stylesheet" media="screen">
+	<link href="./css/themes/dark/dark.css" rel="stylesheet" media="screen">
+	<link href="./css/themes/bar/bar.css" rel="stylesheet" media="screen">
+	<title>Inicio - Peña Calipso</title>
+ </head>
+<body>
+ <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+ 
+    <!-- Todos los plugins JavaScript de Bootstrap-->
+    <script src="./js/bootstrap.min.js"></script>
+	
+	<!-- PARA JQUERY -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<header class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2" style="margin-bottom:12px;">
+	<div class="col-md-10 col-sm-10" style="height:87px;padding-left:0px !important;margin-bottom:5px;">
+		<div class="col-sm-offset-0 col-md-offset-0 col-xs-offset-3" style="max-width:242px;height:87px;">
+			<img class="img-responsive" src="./img/index/logo.png" alt="Logo Peña Calipso" title="Logo Peña Calipso"/>
+		</div>
+	</div>
+	<a href="./html/entrar.php"><div class="col-md-2 col-sm-2 col-sm-offset-0 col-md-offset-0 col-xs-6 col-xs-offset-2">
+		<img class="img-responsive" style="float:left;margin-right:5px;height:48px;" src="./img/index/entrar.png"/>
+		<p style="padding-top:12px;">¡Entra!</p>
+	</div></a>
+</header>	
+<aside  class="col-md-8 col-sm-8 col-xs-12 col-md-offset-2 col-sm-offset-2">
+	<nav class="col-md-12 col-sm-12 navbar navbar-default" style="min-height:70px;margin-bottom:3px;padding:0px;" role="navigation">
+	  <div class="container-fluid" style="/*padding:0px;*/">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" style="margin-top:19px;margin-right:30px;" class="navbar-toggle" data-toggle="collapse" data-target="#mimenu">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand hidden-sm hidden-md visible-xs" style="margin-top:15px;margin-left:15px;">Menú</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="mimenu">
+		  <ul class="nav navbar-nav" style="width:100%;min-height:70px;">
+			<li class="active"><a href="./index.html">Inicio</a></li>
+			<li class="dropdown">
+			  <a class="dropdown-toggle" data-toggle="dropdown">Quienes somos<span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu">
+				<li><a href="./plantilla.php">Plantilla</a></li>
+				
+			  </ul>
+			</li>
+			<li><a href="#">Estatutos</a></li>
+			<li class="dropdown">
+			  <a id="aa" href="#" class="dropdown-toggle" data-toggle="dropdown">Galerías<span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu">
+				<li class="dropdown-submenu"><a>Temp. 13/14</a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">Partido 17/06/2014</a></li>
+				  <li><a href="#">Partido 24/06/2014</a></li>
+				  <li><a href="#">Fiesta final temp.</a>
+				  </li>
+                </ul>
+				</li>
+			  </ul>
+			</li>
+		  </ul>
+		  <!--<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Link</a></li>
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Another action</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+			  </ul>
+			</li>
+		  </ul>-->
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+</nav>
+
+
+	
+	
+	
+	<div class="col-md-12 col-sm-12" style="padding:0px !important;background-color:rgba(0,0,0,0.5);border-bottom-right-radius:60px;border-bottom-left-radius:60px;">
+		<!--<h2 style="color:white;">Slider nivo slice</h2>
+		<h2 style="color:white;">Menu http://livedemo00.template-help.com/wordpress_41580/</h2>-->
+		<div class="slider-wrapper theme-default">
+			<div id="slider" class="nivoSlider">
+				<img src="./img/index/slider/slide-1.jpg" />
+				<img src="./img/index/slider/slide-2.jpg" />
+				<img src="./img/index/slider/slide-3.jpg" />
+			</div>
+		</div>
+	</div>
+	<div class="col-md-12 col-sm-12" style="margin-top:5px;background-color:rgba(0,0,0,0.8);border-radius:10px;">
+		<div class="col-md-6 col-sm-6">
+			<h2 style="color:white; font-family:Ubuntu_Bold !important;">¡Bienvenido!</h2>
+			<img class="img-responsive" style="border-radius:3px;" alt="chico con balón" title="chico con balón" src="./img/index/img1.jpg">
+			<p style="color:#6B6B6B;text-align:justify;margin-top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at eros hendrerit, vestibulum nibh sit amet, lobortis eros. Vivamus convallis blandit mauris et sagittis. Maecenas tempus lacus quam, sed sollicitudin tellus lobortis vel. Aliquam consectetur luctus venenatis. Vivamus ornare, diam a convallis congue, eros justo semper nisi, at luctus nisl ipsum in leo. Praesent hendrerit, purus sed euismod condimentum, tortor lacus ultricies elit, at iaculis dui arcu at lacus. Phasellus tristique ipsum in iaculis hendrerit. Mauris sed erat quis nibh ultrices ultrices. Vivamus vestibulum lacus a eros viverra euismod. Pellentesque lobortis arcu sit amet mauris consectetur imperdiet. Cras aliquam venenatis augue. Vestibulum eget fermentum ante. Sed vitae lectus eu urna lacinia vehicula et nec ante.</p>
+		
+			<div class="col-md-6 col-sm-6">
+				<img class="img-responsive" style="width:100%;border-radius:5px;" src="./img/index/bart.jpg"/>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<h4 style="color:white; font-family:Ubuntu_Bold !important;padding-bottom:10px;border-bottom:1px solid gray;">Nuestro horario</h4>
+				<p style="color:#ccc;">Jugamos los Martes de 21h a 22h.</p>
+			</div>
+		
+		</div>
+		<div class="col-md-6 col-sm-6">
+			<h2 style="color:white;padding-bottom:10px;border-bottom:1px solid gray; font-family:Ubuntu_Bold !important;">Nuestro campo</h2>
+		<p style="color:white;">Jugamos en:</p>
+		<address style="color:#ccc">
+		Polideportivo municipal Santa María<br />
+		c\Rosa s/n<br />
+		CP:18140 <br />
+		La Zubia, Granada
+		</address>
+		<iframe class="col-md-12 col-sm-12" style="height:400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d148.6380293762777!2d-3.5926333320914186!3d37.114306479843926!2m3!1f180!2f0!3f0!3m2!1i1024!2i768!4f35!5e1!3m2!1ses!2ses!4v1405676272828" frameborder="0" style="border:0"></iframe>
+		</div>
+	</div>
+</aside>
+<footer class="col-md-8 col-sm-8 col-xs-12 col-md-offset-2 col-sm-offset-2"  style="border-top:1px solid gray;margin-top:5px;height:70px;padding:10px;">
+<p class="col-md-5 col-sm-5 col-xs-6" style="color:white;">Peña calipso 2014 &copy; <small>Todos los derechos reservados</small></p>	
+<p class="col-md-7 col-sm-7 col-xs-6" style="color:#c0c0c0;border-left:3px solid #f26721;"><small>Creado por:</small> <a href="http://es.linkedin.com/pub/antonio-moles-leiva/3a/70/970" style="cursor:pointer;"><strong>Antonio Moles</strong></a></p>
+</footer>
+<script>
+$(document).ready(function(){
+	$(".dropdown-submenu").click(function (e){
+	e.stopPropagation();
+	$(this).find(".dropdown-menu").toggle();
+	});
+	$(".dropdown-submenu .dropdown-menu").click(function (e){
+	//e.stopPropagation();
+	$(this).parent().parent().toggle();
+	});
+	
+	$("#aa").click(function(){
+		//alert("sd");
+		$(this).siblings().toggle();
+		/*if ($(this).siblings().css("display")=="none") {
+		$(this).siblings().css("display","block");
+		}*/
+	});
+	$("#aa").next().click(function(){
+	$("#aa").siblings().css("display","none");
+	});
+	
+	$("#ScrollUp").click(function(){
+		$('html, body').animate({
+				scrollTop: 0
+			}, 800);
+		$( "#ScrollUp" ).fadeOut(1000);
+		$("#ScrollUp").css("display","none");
+	});
+	$.fn.scrollStopped = function(callback) {           
+        $(this).scroll(function(){
+            var self = this, $this = $(self);
+            if ($this.data('scrollTimeout')) {
+              clearTimeout($this.data('scrollTimeout'));
+            }
+            $this.data('scrollTimeout', setTimeout(callback,250,self));
+        });
+    };
+$(window).scrollStopped(function(){
+    var window_y = $(window).scrollTop();
+		if (window_y>=300) {
+		$( "#ScrollUp" ).fadeIn(1000);
+		$( "#ScrollUp" ).css("display","block");
+		
+		}
+		else {
+		$( "#ScrollUp" ).fadeOut(1000);
+		$( "#ScrollUp" ).css("display","none");
+		}
+});
+
+});
+</script>
+<div id="ScrollUp" class="hidden-xs">
+<p>Subir</p>
+</div>
+<script src="./js/jquery.nivo.slider.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+$("#slider").nivoSlider();
+});
+</script>
+</body>
+</html>
